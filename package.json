@@ -1,0 +1,17 @@
+{
+  "name": "gestor-tarefas-ci",
+  "version": "1.0.0",
+  "description": "Aplicação web simples com testes automatizados e CI/CD",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --verbose"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
